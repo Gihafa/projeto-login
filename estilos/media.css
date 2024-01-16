@@ -12,11 +12,23 @@
         float: left;
         width: 30%;
         height: 100%;
+        background-size: cover;
+        background-position: center center;
     }
 
     #formulario {
         float: right;
         width: 70%;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-top: 10px;
+    }
+
+    p {
+        font-size: 1.2em;
+        text-align: justify;
     }
 }
 
@@ -31,13 +43,24 @@
     }
 
     #imagem {
-        float: left;
+        float: right; /* para a imgaem flutuar para a direita */
         width: 50%;
         height: 100%;
     }
 
     #formulario {
-        float: right;
+        float: left; /* para a imgaem flutuar para a esquerda */
         width: 50%;
+    }
+
+
+    h1 {
+        font-size: 2em;
+        margin-top: 10px;
+    }
+
+    p {
+        font-size: 1.2em;
+        text-align: justify;
     }
 }
