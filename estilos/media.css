@@ -1,11 +1,12 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
-
+/*CONFIGURAÇÃO PARA TABLETS*/
     body {
         background-image: linear-gradient(to top, var(--azul-escuro), #fdb089cd);
     }
 
     #login {
         width: 80vw;
+        height: 350px;
     }
 
     #imagem {
@@ -33,13 +34,14 @@
 }
 
 @media screen and (min-width: 992px) {
-
+/*CONFIGURAÇÕES PARA DESKTOP*/
     body {
         background-image: linear-gradient(to top, var(--azul-escuro), #fdb089cd);
     }
 
     #login {
         width: 950px;
+        height: 350px;
     }
 
     #imagem {

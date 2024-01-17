@@ -27,14 +27,13 @@ main {
     position: relative;
     height: 100vh;
     width: 100vw;
-    
-
 }
 
 #login {
     position: absolute;
     top: 50%;
     left: 50%;
+    overflow: hidden;
     transform: translate(-50%, -50%);
     
 
@@ -48,8 +47,6 @@ main {
 
     transition: width 0.5s, height 0.5s;
     transition-timing-function: ease;
-
-
 }
 #imagem {
     display: block;
@@ -69,32 +66,41 @@ main {
     background-color: #0097a5;
     width: 100%;
     height: 40px;
-    border-radius: 15px;
+    border: 2.5px solid #0097a5;
+    border-radius: 10px;
     margin: 5px 0px;
-    padding: 10px;
 }
 
 .campo > input {
     border-radius: 10px;
     background-color: #e7e3e0;
     border: 0.5px solid rgba(0, 0, 0, 0.671);
-    padding-left: 5px;
-    
-    
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+    border: none;
+    padding: 4px;
+    transform: translateY(-12px);
+
+}
+
+.campo > i {
+    color: #e7e3e0;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
 
 
 label {
     display: none;
     font-size: 0.8em;
-    
+    margin-bottom: 5px;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 5px;
-    
-
 }
 
 p {
@@ -113,17 +119,14 @@ form > input[type=submit] {
     margin-bottom: 10px;
     border-radius: 10px;
     cursor: pointer;
-    border: none;
-    background-color: #B295B3;
+    border: 1px solid #B295B3;
     
 }
 
 form > input[type=submit]:hover {
-    background-color: #d2b5d6;
+    background-color: #d0b8d1;
     transition: 0.5s;
 }
-
-
 
 .botao {
     display: block;
@@ -142,4 +145,3 @@ form > input[type=submit]:hover {
     text-decoration: underline;
     transition: 0.5s;
 }
-
